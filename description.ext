@@ -1,0 +1,29 @@
+author			= "Bluefieldcreator";
+onLoadName		= "STALKER - Micro Mission";
+onLoadMission	= "STALKER Gamemode by Bluefieldcreator - 3rd Shock Army";
+loadScreen		= "images\loadScreen.paa";
+
+
+class Header
+{
+	gameType = "Coop";	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 54;	// maximum number of players the mission supports
+};
+
+
+class CfgFunctions {
+	class BLUE {
+		class Data {
+			class loadData {
+				file = "functions\loadData.sqf";
+			};
+
+			class newSaveFile {
+				file = "functions\newSaveFile.sqf";
+			};
+
+		};
+	};
+};
+
